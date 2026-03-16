@@ -4,7 +4,7 @@ Every day a new mathematical operation will be added to this calculator project.
 
 Why do this?
 Started this project to kill two birds with one stone:
-- To improve master in python(especially with looping)
+- To improve mastery in python(especially with looping)
 - And to understand programming by using it to solve problems arithmetically and logically
 
 Structure of this program:
