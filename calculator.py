@@ -10,16 +10,17 @@ while True:
  print('6. Root')
  print('7. Percentage', end='   ')
  print('8. Hypotenuse')
- print('9. Exit')
+ print('9. Area of right angle triangle')
+ print('10. Exit')
       
       # Choose operations from menu #
- choice = input('Enter choice (1/2/3/4/5/6/7/8/9): ')
+ choice = input('Enter choice (1/2/3/4/5/6/7/8/9/10): ')
 
       # ensure accurate operation selection #
- if choice == '9':
+ if choice == '10':
     print('Exiting...')
     break
- if choice not in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+ if choice not in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']:
     print('invalid input, try again!')
     break 
 
@@ -57,6 +58,8 @@ while True:
  elif choice == '8':
     print('Result:', float('{:.2f}'.format((int(num1) ** 2 + int(num2) ** 2) ** 0.5)))
  elif choice == '9':
+    print('Result:', float('{:.1f}'.format(0.5 * int(num1) * int(num2))), 'cm^2')
+ elif choice == '10':
     print('Exiting...')
     break
  else:
